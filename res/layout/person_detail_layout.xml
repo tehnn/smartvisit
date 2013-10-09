@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f9fe"
+    android:orientation="vertical" >
+
+    <include layout="@layout/actionbar_layout" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#A4DBAE" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="รายละเอียดบุคคล"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="3dp" >
+
+        <ImageView
+            android:id="@+id/imvPersonDetail"
+            android:layout_width="135dp"
+            android:layout_height="125dp"
+            android:background="@drawable/image_border"
+            android:clickable="true"
+            android:onClick="person_imv_clicked"
+            android:padding="3dp"
+            android:src="@drawable/no_photo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="3dp" >
+
+            <TextView
+                android:id="@+id/tv_menu_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cid:3450100910877" />
+
+            <TextView
+                android:id="@+id/tvHouseOwner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pid:00012" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hn:" />
+
+            <TextView
+                android:id="@+id/tvHouseOwn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Birth:2523-04-18" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ชาย,33ปี,กลุ่มB,คู่" />
+
+            <TextView
+                android:id="@+id/tvHouseHo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="สัญชาติ:ไทย" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="3dp" >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="นายเจริญ รุ่งเรือง"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="25/11 ม.13 ถ.- ต.จอมทอง อ.เมือง จ.พิษณุโลก" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ccc" />
+
+    <ListView
+        android:id="@+id/lvPersonMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

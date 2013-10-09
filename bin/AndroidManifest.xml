@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="software.utehn.dev"
+    android:installLocation="auto"
+    android:versionCode="1"
+    android:versionName="1.1" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name="software.utehn.dev.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="software.utehn.dev.PersonDetailActivity" />
+        
+        <activity android:name="software.utehn.dev.TargetGroupActivity" 
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        
+        <activity android:name="software.utehn.dev.HouseActivity" 
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        
+          <activity android:name="software.utehn.dev.DialogPersonActivity" 
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        
+        
+        
+    </application>
+
+</manifest>

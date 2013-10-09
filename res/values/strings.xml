@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World</string>
+    <string name="app_name">SmartVisit</string>
+    <string name="app_title_bar">SmartVisit 1.1</string>
+    
+    <string-array name="lvPersonMenuItm">
+         <item>โรคประจำตัว</item>
+        <item>ประวัติการรักษา</item>       
+        <item>ประวัติการเยี่ยมบ้าน</item>
+        <item>ประวัติจาก DataCenter</item>
+        
+    </string-array>
+
+</resources>

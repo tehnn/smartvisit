@@ -1,0 +1,47 @@
+<software.utehn.dev.DashboardLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+
+	<!--  News Feed Button -->
+
+    <Button
+        android:id="@+id/btn_house"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_newsfeed"
+        android:text="ข้อมูลบ้าน"
+        android:textColor="#000" />
+    
+	<!--  Friends Button -->
+
+    <Button
+        android:id="@+id/btn_pop"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_pop"
+        android:text="กลุ่มเป้าหมาย"
+        android:textColor="#000" />
+    
+	<!--  Messages Button -->
+	
+    <!--  Places Button -->
+
+    <Button
+        android:id="@+id/btn_maps"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_places"
+        android:text="แผนที่บ้าน"
+        android:textColor="#000" />
+
+    <!--  Events Button -->
+
+    <Button
+        android:id="@+id/btn_note"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_events"
+        android:text="บันทึกกิจกรรม"
+        android:textColor="#000" />
+
+    <!--  Photos Button -->
+
+</software.utehn.dev.DashboardLayout>
